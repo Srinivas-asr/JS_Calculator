@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Simple Calculator</h1></header>
+    <main>
+    <table>
+        <form>
+        <tr><td colspan="4"><input type="text" name="" id="result" placeholder="Result"></td></tr>
+        <tr>
+            
+                <td colspan="2"><input type="text" id="text" placeholder="enter for calculate"></td>
+                <td><button type="reset" class="c">c</button></td>    
+            </form>
+            <td><button onclick="add()" id="add" value="+" class="operator">+</button></td>
+        </tr>
+            <tr>
+                <td><button onclick="sev()" id="sev" value="7">7</button></td>
+                <td><button onclick="eig()" id="eig" value="8">8</button></td>
+                <td><button onclick="nin()" id="nin" value="9">9</button></td>
+                <td><button onclick="sub()" id="sub" value="-" class="operator">-</button></td>
+                
+            </tr>
+            <tr>
+                <td><button onclick="fou()" id="fou" value="4">4</button></td>
+                <td><button onclick="fiv()" id="fiv" value="5">5</button></td>
+                <td><button onclick="six()" id="six" value="6">6</button></td>
+                <td><button onclick="mul()" id="mul" value="*" class="operator">*</button></td>
+                
+            </tr>
+            <tr>
+                <td><button onclick="one()" id="one" value="1">1</button></td>
+                <td><button onclick="two()" id="two" value="2">2</button></td>
+                <td><button onclick="thr()" id="thr" value="3">3</button></td>
+                <td><button onclick="div()" id="div" value="/" class="operator">/</button></td>
+            </tr>
+            <tr>
+                
+                <td><button onclick="dot()" id="dot" value=".">.</button></td>
+                <td><button onclick="zer()" id="zer" value="0">0</button></td>
+                <td><button onclick="mod()" id="mod" value="%" class="operator">%</button></td>
+                
+                <td><button onclick="ent()" id="ent" class="enter">=</button></td>
+            </tr>
+    </table>
+    </main>
+<footer><h4>© 2025 @sr. All rights reserved.</h4></footer>
+
+    <script src="./cal.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</body>
+</html>
